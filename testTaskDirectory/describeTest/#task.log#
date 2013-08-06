@@ -1,0 +1,31 @@
+Mon Jul 22 22:57:43 JDT 2013 Executing etl task in describeTest
+Mon Jul 22 22:57:43 JDT 2013 Starting attempt 0 of describe.hive taskId: 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0
+Mon Jul 22 22:57:44 JDT 2013 Copied describe.hive to esoniat@slpr-aha01.lpdomain.com:adHocEtl/F:/Analytics/hiveEtl/testTaskDirectory/describeTest/3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.hive
+Mon Jul 22 22:57:48 JDT 2013 Starting slpr-aha01.lpdomain.com:adHocEtl/F:/Analytics/hiveEtl/testTaskDirectory/describeTest/3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.hive
+Mon Jul 22 22:57:52 JDT 2013 Retrieving esoniat@slpr-aha01.lpdomain.com:adHocEtl/F:/Analytics/hiveEtl/testTaskDirectory/describeTest/3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.log 
+Stauts test0 -eq 0 && -f 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.log 
+Mon Jul 22 22:57:54 JDT 2013 Retrieving result esoniat@slpr-aha01.lpdomain.com:adHocEtl/F:/Analytics/hiveEtl/testTaskDirectory/describeTest/3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.result
+Mon Jul 22 22:57:55 JDT 2013 Finished 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.hive with no apparent errors
+Mon Jul 22 22:57:55 JDT 2013 Removing files from esoniat@slpr-aha01.lpdomain.com:adHocEtl/F:/Analytics/hiveEtl/testTaskDirectory/describeTest
+Mon Jul 22 22:57:57 JDT 2013 attemp  task 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0 loading data from 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.result with /cygdrive/f/Analytics/hiveEtl/testTaskDirectory/describeTest/insertDescribe.sql
+ERROR 1146 (42S02) at line 7: Table 'hiveetl.testdescribe' doesn't exist
+Mon Jul 22 22:58:13 JDT 2013 attemp  task 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0 loading data from 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.result with /cygdrive/f/Analytics/hiveEtl/testTaskDirectory/describeTest/insertDescribe.sql
+ERROR 1146 (42S02) at line 7: Table 'hiveetl.testdescribe' doesn't exist
+Mon Jul 22 22:58:19 JDT 2013 attemp  task 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0 loading data from 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.result with /cygdrive/f/Analytics/hiveEtl/testTaskDirectory/describeTest/insertDescribe.sql
+ERROR 1146 (42S02) at line 7: Table 'hiveetl.testdescribe' doesn't exist
+Mon Jul 22 22:58:26 JDT 2013 attemp  task 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0 loading data from 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.result with /cygdrive/f/Analytics/hiveEtl/testTaskDirectory/describeTest/insertDescribe.sql
+ERROR 1146 (42S02) at line 7: Table 'hiveetl.testdescribe' doesn't exist
+Mon Jul 22 22:58:32 JDT 2013 attemp  task 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0 loading data from 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0.result with /cygdrive/f/Analytics/hiveEtl/testTaskDirectory/describeTest/insertDescribe.sql
+ERROR 1146 (42S02) at line 7: Table 'hiveetl.testdescribe' doesn't exist
+gMon Jul 22 22:58:41 JDT 2013 Task 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0 sql error failed 5 times, saving hive results in 3f0314dc-74d6-46ff-9b40-351e1a7d0bb0_testDescribe
+Mon Jul 22 22:58:42 JDT 2013 Finished etl task in describeTest
+Mon Jul 22 23:00:05 JDT 2013 Executing etl task in describeTest
+Mon Jul 22 23:00:06 JDT 2013 Starting attempt 0 of describe.hive taskId: 8f467f3e-3e62-49dc-9f38-7a2de698163c
+Mon Jul 22 23:00:07 JDT 2013 Copied describe.hive to esoniat@slpr-aha01.lpdomain.com:adHocEtl/F:/Analytics/hiveEtl/testTaskDirectory/describeTest/8f467f3e-3e62-49dc-9f38-7a2de698163c.hive
+Mon Jul 22 23:00:10 JDT 2013 Starting slpr-aha01.lpdomain.com:adHocEtl/F:/Analytics/hiveEtl/testTaskDirectory/describeTest/8f467f3e-3e62-49dc-9f38-7a2de698163c.hive
+Mon Jul 22 23:00:15 JDT 2013 Retrieving esoniat@slpr-aha01.lpdomain.com:adHocEtl/F:/Analytics/hiveEtl/testTaskDirectory/describeTest/8f467f3e-3e62-49dc-9f38-7a2de698163c.log 
+Stauts test0 -eq 0 && -f 8f467f3e-3e62-49dc-9f38-7a2de698163c.log 
+Mon Jul 22 23:00:18 JDT 2013 Retrieving result esoniat@slpr-aha01.lpdomain.com:adHocEtl/F:/Analytics/hiveEtl/testTaskDirectory/describeTest/8f467f3e-3e62-49dc-9f38-7a2de698163c.result
+Mon Jul 22 23:00:20 JDT 2013 Finished 8f467f3e-3e62-49dc-9f38-7a2de698163c.hive with no apparent errors
+Mon Jul 22 23:00:20 JDT 2013 Removing files from esoniat@slpr-aha01.lpdomain.com:adHocEtl/F:/Analytics/hiveEtl/testTaskDirectory/describeTest
+Mon Jul 22 23:00:21 JDT 2013 attemp  task 8f467f3e-3e62-49dc-9f38-7a2de698163c loading data from 8f467f3e-3e62-49dc-9f38-7a2de698163c.result with /cygdrive/f/Analytics/hiveEtl/testTaskDirectory/describeTest/insertDescribe.sql

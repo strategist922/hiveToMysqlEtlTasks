@@ -1,0 +1,23 @@
+#!noop This should only be sourced not executed
+#
+# Set these according to your hive and sql
+hiveFileName=attChat.hive
+hiveResultFileName=attChats
+sqlFileName=insertAttChat.sql
+#
+# for colo use  svpr-aha01.lpdomain.com
+# for EU   use  slpr-aha01.lpdomain.com
+# no other servers are setup at this time
+#
+hiveServer=svpr-aha01.lpdomain.com
+#
+# The values below normally do not change
+#
+
+hiveServerUserName=esoniat
+sqlServer=nycps.lpnet.com
+sqlUser=hiveetl
+sqlPassword=pfaaS3$
+
+
+
